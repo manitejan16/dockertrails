@@ -1,0 +1,6 @@
+FROM openjdk
+RUN mkdir test
+RUN cd test
+
+RUN touch file.txt . 
+RUN echo "Welcome"
